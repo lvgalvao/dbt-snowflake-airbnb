@@ -34,3 +34,7 @@ models:
     +materialized: view
     dim:
       +materialized: table
+    fact:
+      +materialized: table
+    bronze:
+      +materialized: ephemeral
