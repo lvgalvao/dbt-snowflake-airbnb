@@ -25,10 +25,10 @@ models:
               values:
                 ["Entire home/apt", "Private room", "Shared room", "Hotel room"]
 
-  #     - name: minimum_nights
-  #       description: '{{ doc("dim_listing_cleansed__minimum_nights") }}'
-  #       tests:
-  #         - positive_value
+      - name: minimum_nights
+        # description: '{{ doc("dim_listing_cleansed__minimum_nights") }}'
+        tests:
+          - positive_value
 
   # - name: dim_hosts_cleansed
   #   description: Cleansed table for the Airbnb hosts
