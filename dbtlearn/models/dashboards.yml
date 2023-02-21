@@ -1,0 +1,16 @@
+version: 2
+
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://4e272b45.us2a.app.preset.io/superset/dashboard/p/2wBmXrjXd6L/
+    description: Executive Dashboard about Airbnb listings and hosts
+
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_review')
+
+    owner:
+      name: Luciano Filho
+      email: lvgalvaofilho@gmail.com
