@@ -6,7 +6,7 @@ This project is a data engineering pipeline that uses three tools to extract, tr
 Pipeline overview
 ![pipeline](https://github.com/lvgalvao/dbt-snowflake-airbnb/blob/main/dbtlearn/assets/Screenshot%202023-02-21%20at%2016.52.19.png)
 
-Doc overview
+Doc overview 
 ![doc](https://github.com/lvgalvao/dbt-snowflake-airbnb/blob/main/dbtlearn/assets/Screenshot%202023-02-21%20at%2016.52.31.png)
 
 Dashboard overview
